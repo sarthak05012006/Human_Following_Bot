@@ -111,7 +111,7 @@ if((distance > 1) && (distance < 15)){            //check wheather the ultrasoni
   Motor4.run(FORWARD);   //rotate motor4 clockwise:
   delay(150);
   
-}else if(distance > 15) {                          //If the condition is 'true' then the statement below will execute:
+}else if(distance > 15) {                           //If the condition is 'true' then the statement below will execute:
   
   //Stop
   Motor1.setSpeed(0);    //define motor1 speed:
